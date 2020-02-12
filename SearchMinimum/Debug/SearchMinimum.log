@@ -1,0 +1,6 @@
+﻿  methods.cpp
+E:\прога\C++\NumMath\SearchMinimum\SearchMinimum\methods.cpp(34,23): warning C4305: инициализация: усечение из "double" в "float"
+E:\прога\C++\NumMath\SearchMinimum\SearchMinimum\methods.cpp(57,17): warning C4305: инициализация: усечение из "double" в "float"
+E:\прога\C++\NumMath\SearchMinimum\SearchMinimum\methods.cpp(58,12): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+E:\прога\C++\NumMath\SearchMinimum\SearchMinimum\methods.cpp(74,17): warning C4305: инициализация: усечение из "double" в "float"
+  SearchMinimum.vcxproj -> E:\прога\C++\NumMath\SearchMinimum\Debug\SearchMinimum.exe
