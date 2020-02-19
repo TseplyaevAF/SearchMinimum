@@ -34,9 +34,9 @@ float Halving(float a, float b) {
 	const float E = 0.001;
 	float x1, x2, x3, x = 0;
 
-	while (b - a < 2 * E) {
+	while (b - a > 2 * E) {
 		x1 = (3 * a + b) / 4;
-		x2 = (a + b) / 4;
+		x2 = (a + b) / 2;
 		x3 = (a + 3 * b) / 4;
 		if ((f(x1) < f(x2)) && (f(x2) < f(x3)))
 			b = x2;
@@ -57,7 +57,7 @@ float Golden(float a, float b) {
 	float E = 0.001;
 	float phi = (sqrt(5) - 1) / 2,
 		x1, x2, x_min = 0;
-	while (b - a < 2 * E) {
+	while (b - a > 2 * E) {
 		x1 = phi * a + (1 - phi) * b;
 		x2 = (1 - phi) * a + phi * b;
 		if (f(x1) < f(x2))
